@@ -60,13 +60,13 @@ const Headers = () => {
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li className="flex items-center">
                   <Link
-                    href="about"
+                    href=""
                     className="block w-full py-2 text-neutral-800 hover:text-neutral-900 hover:font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:p-0 "
                   >
                     소개
                   </Link>
                 </li>
-                <li className="flex items-center">
+                {/* <li className="flex items-center">
                   <Link
                     href="about"
                     className="block w-full py-2 text-neutral-800 hover:text-neutral-900 hover:font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:p-0 "
@@ -105,7 +105,7 @@ const Headers = () => {
                   >
                     문의
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
