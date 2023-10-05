@@ -3,7 +3,7 @@ import BookCover from "../../public/book-cover.png";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between px-4">
       <article className="flex flex-col text-center">
         <p>
           MBTI 관련 글을 아무리 보고 또 봐도 <br />
@@ -50,7 +50,7 @@ export default function Home() {
           />
         </div>
         <input
-          className="bg-gray-100 text-center rounded-sm  py-4"
+          className="bg-gray-100 text-center rounded-sm py-4"
           placeholder="1. 이메일을 입력해주세요."
         />
         <button className="bg-violet-700 hover:bg-violet-600 text-white rounded-sm py-4">
