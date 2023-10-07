@@ -1,12 +1,20 @@
 "use client";
 
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
+import { fireAnalytics } from "@/lib/utils/firebase";
+import Image from "next/image";
 import Link from "next/link";
 import Analytics from "./Analytics";
 import MetaInfo from "./MetaInfo";
+import Logo from "../../../public/images/logo.png";
 
 const Headers = () => {
   const [toggle, setToggle] = useState(false);
+  useEffect(() => {
+    if (typeof window != undefined) {
+      fireAnalytics;
+    }
+  }, []);
 
   return (
     <>
@@ -20,7 +28,7 @@ const Headers = () => {
             <Link href="/" className="flex items-center">
               {/* <img src="" className="mr-3 h-6 sm:h-9" alt="Petsta" /> */}
               <h1 className="self-center text-xl font-semibold whitespace-nowrap font-cafe24Night">
-                Hi Cupid
+                <Image src={Logo} alt="HiCupid" height={50} />
               </h1>
             </Link>
             <div className="flex md:hidden items-center lg:order-2">

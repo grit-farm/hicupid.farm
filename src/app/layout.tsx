@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
-import Headers from "@/components/Headers";
-import Footer from "@/components/Footer";
+import Headers from "@/app/components/Headers";
+import Footer from "@/app/components/Footer";
 
 export const metadata: Metadata = {
   title: "Hi Cupid | 쉿! 너만 알려주는 연애비법",
