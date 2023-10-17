@@ -1,8 +1,6 @@
 "use client";
 
 import { useForm, SubmitHandler } from "react-hook-form";
-import Image from "next/image";
-import BookCover from "../../../public/images/book-cover.png";
 import { Timestamp, collection, doc, setDoc } from "firebase/firestore";
 import { fireStore } from "@/lib/utils/firebase";
 import Swal from "sweetalert2";
@@ -49,14 +47,6 @@ const EmailForm = () => {
       className="flex flex-col gap-8 mt-16"
       onSubmit={handleSubmit(onSubmit)}
     >
-      <div className="flex justify-center">
-        <Image
-          className="rounded-sm"
-          src={BookCover}
-          alt="ENTJ 남자와 썸에서 연애까지"
-          height={500}
-        />
-      </div>
       <input
         className="bg-gray-100 text-center rounded-sm py-4"
         placeholder="1. 이메일을 입력해주세요."
