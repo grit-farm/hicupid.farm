@@ -4,6 +4,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import { Timestamp, collection, doc, setDoc } from "firebase/firestore";
 import { fireStore } from "@/lib/utils/firebase";
 import Swal from "sweetalert2";
+import { sendSlackMessage } from "@/lib/utils/slack";
 
 type Inputs = {
   email: string;
@@ -31,6 +32,13 @@ const EmailForm = () => {
         "신청이 완료되었어요.",
         "ENTJ 남자를 잡을 수 있는 이북을 금방 보내드릴께요!",
         "success"
+      );
+
+      sendSlackMessage(
+        "#hi-cupid",
+        "큐피드봇",
+        ":cupid:",
+        `웹사이트에서 ${data.email} 님이 ENTJ 남자와 썸에서 연애까지 이북을 신청하였어요!`
       );
     } catch (err) {
       Swal.fire(
