@@ -1,5 +1,3 @@
-import axios from "axios";
-
 export const sendSlackMessage = async (
   channel: string,
   username: string,
