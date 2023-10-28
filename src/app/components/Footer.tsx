@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-white shadow ">
       <div className="w-full max-w-screen-xl mx-auto p-2 mt-8">
         <p className="flex text-xs justify-center text-gray-700 sm:text-center">
-          <span>쉿! 너만 알려주는 연애비법 Hi Cupid</span>
+          <span>하이큐피드 | MBTI 종합 맞춤형 연애상담 서비스</span>
         </p>
       </div>
       <div className="w-full max-w-screen-xl mx-auto p-4">

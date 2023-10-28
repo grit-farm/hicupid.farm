@@ -5,13 +5,13 @@ import Headers from "@/app/components/Headers";
 import Footer from "@/app/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Hi Cupid | 쉿! 너만 알려주는 연애비법",
-  description: "쉿! 너만 알려주는 연애비법",
+  title: "하이큐피드 | MBTI 궁합 맞춤형 연애상담 서비스",
+  description: "MBTI 종합 맞춤형 연애상담 서비스",
   openGraph: {
-    title: "Hi Cupid | 쉿! 너만 알려주는 연애비법",
-    description: "쉿! 너만 알려주는 연애비법",
+    title: "하이큐피드 | MBTI 궁합 맞춤형 연애상담 서비스",
+    description: "MBTI 종합 맞춤형 연애상담 서비스",
     url: "https://hicupid.farm",
-    siteName: "Hi Cupid | 쉿! 너만 알려주는 연애비법",
+    siteName: "하이큐피드 | MBTI 궁합 맞춤형 연애상담 서비스",
     images: ["https://hicupid.farm/images/og.png"],
     locale: "ko-KR",
     type: "website",
