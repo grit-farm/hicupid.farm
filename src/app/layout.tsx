@@ -6,10 +6,10 @@ import Footer from "@/app/components/Footer";
 
 export const metadata: Metadata = {
   title: "하이큐피드 | MBTI 궁합 맞춤형 연애상담 서비스",
-  description: "MBTI 종합 맞춤형 연애상담 서비스",
+  description: "MBTI 궁합 맞춤형 연애상담 서비스",
   openGraph: {
     title: "하이큐피드 | MBTI 궁합 맞춤형 연애상담 서비스",
-    description: "MBTI 종합 맞춤형 연애상담 서비스",
+    description: "MBTI 궁합 맞춤형 연애상담 서비스",
     url: "https://hicupid.farm",
     siteName: "하이큐피드 | MBTI 궁합 맞춤형 연애상담 서비스",
     images: ["https://hicupid.farm/images/og.png"],
