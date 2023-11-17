@@ -1,12 +1,12 @@
 'use client'
 
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
 
 interface Props {
   title: string
   description: string
-  image: string
+  image: string | StaticImageData
   link: string
 }
 

@@ -1,5 +1,10 @@
-const homepage = 'https://hicupid.farm'
+const URL = 'https://hicupid.farm'
 
 export default async function sitemap() {
-  return []
+  const routes = ['', '/about', '/books', '/columns', '/faq'].map((route) => ({
+    url: `${URL}${route}`,
+    lastModified: new Date().toISOString(),
+  }))
+
+  return [...routes]
 }
