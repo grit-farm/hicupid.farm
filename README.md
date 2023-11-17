@@ -1,13 +1,9 @@
-# Hi Cupid
+# 하이큐피드
+
+MBTI 궁합 맞춤형 연애상담 서비스
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```

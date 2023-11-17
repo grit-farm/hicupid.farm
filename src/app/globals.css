@@ -1,22 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/**
- * 카페 24 고운밤
-**/
-@font-face {
-  font-family: 'Cafe24Oneprettynight';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
 /**
- * 에스코어 드림
+ * 강원교육모두체
 **/
 @font-face {
-  font-family: 'S-CoreDream-3Light';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
-  font-weight: normal;
+  font-family: 'GangwonEdu';
+  font-weight: 400;
   font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllLight.eot');
+  src:
+    url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllLight.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllLight.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllLight.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllLight.ttf')
+      format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GangwonEdu';
+  font-weight: 400;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllBold.eot');
+  src:
+    url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllBold.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllBold.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/gangwon/GangwonEduAllBold.ttf')
+      format('truetype');
+  font-display: swap;
 }

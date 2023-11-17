@@ -1,15 +1,15 @@
-"use client";
+'use client'
 
 const Footer = () => {
   return (
     <footer className="bg-white shadow ">
-      <div className="w-full max-w-screen-xl mx-auto p-2 mt-8">
-        <p className="flex text-xs justify-center text-gray-700 sm:text-center">
+      <div className="mx-auto mt-8 w-full max-w-screen-xl p-2">
+        <p className="flex justify-center text-xs text-gray-700 sm:text-center">
           <span>하이큐피드 | MBTI 궁합 맞춤형 연애상담 서비스</span>
         </p>
       </div>
-      <div className="w-full max-w-screen-xl mx-auto p-4">
-        <p className="flex flex-col md:flex-row gap-2 justify-center text-xs text-gray-700 sm:text-center mb-1">
+      <div className="mx-auto w-full max-w-screen-xl p-4">
+        <p className="mb-1 flex flex-col justify-center gap-2 text-xs text-gray-700 sm:text-center md:flex-row">
           <span>그릿팜</span>
           <span>대표: 이학성</span>
           <span>인천광역시 부평구 주부토로 201</span>
@@ -18,7 +18,7 @@ const Footer = () => {
         </p>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

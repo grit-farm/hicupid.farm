@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { Analytics, getAnalytics } from "firebase/analytics";
-import { getFirestore } from "firebase/firestore";
+import { initializeApp } from 'firebase/app'
+import { Analytics, getAnalytics } from 'firebase/analytics'
+import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -11,16 +11,16 @@ const firebaseConfig = {
   messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
-};
-
-// Initialize Firebase
-const firebaseApp = initializeApp(firebaseConfig);
-const fireStore = getFirestore(firebaseApp);
-
-let fireAnalytics: Analytics;
-
-if (typeof window !== "undefined") {
-  fireAnalytics = getAnalytics(firebaseApp);
 }
 
-export { fireStore, fireAnalytics };
+// Initialize Firebase
+const firebaseApp = initializeApp(firebaseConfig)
+const fireStore = getFirestore(firebaseApp)
+
+let fireAnalytics: Analytics
+
+if (typeof window !== 'undefined') {
+  fireAnalytics = getAnalytics(firebaseApp)
+}
+
+export { fireStore, fireAnalytics }
