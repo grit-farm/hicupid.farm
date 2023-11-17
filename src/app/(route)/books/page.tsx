@@ -25,7 +25,7 @@ export default function ServerPage() {
             title="ENTJ 남자와 썸에서 연애까지"
             description="ENTJ 남자들이 굉장히 매력적이지만
 막상 연애하면 이해가 잘 안되어서 고통받고, 힘들어하는 사람들을 위한 노하우 북 입니다."
-            link=""
+            link="https://docs.google.com/forms/d/e/1FAIpQLSfVhpTPf398c46W6KTWFrMqjWubTp5oWYq6N4ltWzUU0MdKWg/viewform"
             image={EntjBook}
           />
         </article>

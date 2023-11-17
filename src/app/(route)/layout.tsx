@@ -4,7 +4,7 @@ import Footer from '@/app/_components/Footer'
 import Headers from '@/app/_components/Headers'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://novelduck.farm'),
+  metadataBase: new URL('https://hicupid.farm'),
   title: {
     default: '하이큐피드 | MBTI 궁합 맞춤형 연애상담 서비스',
     template: '%s | 하이큐피드',

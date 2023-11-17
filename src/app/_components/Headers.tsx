@@ -97,9 +97,14 @@ const Headers = () => {
                     노하우 북
                   </Link>
                 </li>
-                <button className="rounded bg-primary px-2 py-2 text-white">
-                  하이큐피드 무료 상담
-                </button>
+                <Link
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf2BJrNiC96O3wRM2ksr7ckdG2F1HVB3aP60N9H2MrqGZqOfQ/viewform"
+                  target="_blank"
+                >
+                  <button className="rounded bg-primary px-2 py-2 text-white">
+                    하이큐피드 무료 상담
+                  </button>
+                </Link>
               </ul>
             </div>
           </div>

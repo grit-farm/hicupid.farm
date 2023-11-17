@@ -1,4 +1,5 @@
 import ScreenContainer from '@/app/_components/ScreenContainer'
+import Link from 'next/link'
 
 export default function ServerPage() {
   return (
@@ -22,9 +23,14 @@ export default function ServerPage() {
             <div className="my-4">
               <p>2023년 10월 기준, 416분께서 하이큐피드와 고민을 나누었어요.</p>
             </div>
-            <button className="mb-8 mt-4 rounded bg-primary px-2 py-2 text-white">
-              하이큐피드 무료 상담
-            </button>
+            <Link
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf2BJrNiC96O3wRM2ksr7ckdG2F1HVB3aP60N9H2MrqGZqOfQ/viewform"
+              target="_blank"
+            >
+              <button className="mb-8 mt-4 rounded bg-primary px-2 py-2 text-white">
+                하이큐피드 무료 상담
+              </button>
+            </Link>
           </article>
         </div>
       </section>
